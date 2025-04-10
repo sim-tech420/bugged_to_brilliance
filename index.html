@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bugged to Brilliance</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="scene-card">
+            <h2 id="scene-title"></h2>
+            <p id="scene-description"></p>
+            <div id="choices"></div>
+            <p id="message"></p>
+            <button id="restart" style="display: none;">Restart Game</button>
+        </div>
+        <div id="progress">
+            <p>Scene: <span id="current-scene"></span></p>
+            <button id="save-btn">Save Progress</button>
+            <button id="load-btn">Load Progress</button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
