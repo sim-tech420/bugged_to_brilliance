@@ -14,5 +14,5 @@ A text-based adventure game where Greg, a gifted coder, journeys from a mysterio
 
 ## Credits
 - Created by Scott W.
-- Inspired by a Co-worker!
+- Inspired by a Co-worker! (BB)
 - Assisted by Grok 3 (xAI).
