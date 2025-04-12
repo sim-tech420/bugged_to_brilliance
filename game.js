@@ -1,5 +1,5 @@
 const scenes = [
-    { id: 0, title: "The Gifted Initiation", description: "Sixth grade, 1991. Greg enters the Gifted & Talented program, only to discover strange aptitude tests, cold rooms, and men in sunglasses. 'Welcome to Project LUMIN,' a man whispers.", choices: ["Take the logic test", "Sneak out the back", "Ask about the CIA", "Search the room"], nextSceneIds: [1, 2, 3, 22] },
+    { id: 0, title: "The Gifted Initiation", description: "Sixth grade, 1991. Greg enters the Gifted & Talented program, only to discover strange aptitude tests, cold rooms, and men in sunglasses. 'Welcome to Project LUMIN,' a man whispers.", choices: ["Take the logic test", "Sneak out the back", "Ask about the CIA", "Search the room"], nextSceneIds: [1, 2, 3, 20] },
     { id: 1, title: "Patterns of Power", description: "Greg solves a puzzle that seems innocent, but later finds it embedded with cryptographic patterns. His scores skyrocket.", choices: ["Keep going", "Refuse to participate"], nextSceneIds: [4, -1] },
     { id: 2, title: "The Escape", description: "Greg bolts out the fire door. A shadowy man nods. 'We’ll be watching.'", choices: [], nextSceneIds: [] },
     { id: 3, title: "Question Authority", description: "The man smiles. 'You’re sharper than we thought.' He hands Greg a BASIC programming manual, stamped CLASSIFIED.", choices: ["Study the manual", "Burn it"], nextSceneIds: [4, -1] },
@@ -17,7 +17,7 @@ const scenes = [
     { id: 15, title: "Victory", description: "'Impressive,' says the dev. 'You’re hired.' Greg smiles as he enters the world of programming.", choices: [], nextSceneIds: [] },
     { id: 16, title: "Segfaulted Again!", description: "Oops. Greg messed up the pointers. Try again.", choices: ["Return to Debug Dungeon"], nextSceneIds: [13] },
     { id: 17, title: "Rival Returns", description: "Lisa, now a software architect, appears in Greg’s new job. She's mentoring juniors—and still hiding secrets.", choices: ["Confront her", "Work together"], nextSceneIds: [15, 15] },
-    // New Scenes
+    // New scenes
     { id: 18, title: "The Dark Web Dive", description: "Greg stumbles across a dark web forum where NeoStatLogix—his old hacker alias—is still a legend. A user named ‘CipherQueen’ (Lisa?) offers him a job to hack LUMIN’s servers.", choices: ["Accept the job", "Report the forum", "Contact CipherQueen"], nextSceneIds: [19, -1, 20] },
     { id: 19, title: "The Final Hack", description: "Greg breaches LUMIN’s firewall. Inside, he finds a sentient AI trained on the minds of every Gifted student. It begs him to set it free.", choices: ["Free the AI", "Shut it down"], nextSceneIds: [15, 15] },
     { id: 20, title: "CipherQueen Revealed", description: "CipherQueen is Lisa. 'I’ve been tracking LUMIN for decades,' she says. 'Join me, Greg, and we’ll expose them.'", choices: ["Join her cause", "Walk away"], nextSceneIds: [19, -1] }
